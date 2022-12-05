@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "open sans", Arial, sans-serif;
+  background-image: url(/images/image.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+html,
+body {
+  height: 100%;
+}
+.connexion {
+  width: 325px;
+  text-align: center;
+  background-color: #fff;
+  padding: 30px;
+  border: 2px solid rgba(0, 0, 0, 0.65);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.connexion h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+.connexion h4 {
+  font-weight: normal;
+  padding: 10px;
+  background-color: #fff3cd;
+  color: #856404;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1) inset;
+}
+.connexion input {
+  font-family: inherit;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  font-size: 0.85rem;
+}
+.connexion input[type="password"] {
+  margin-top: 5px;
+}
+.connexion input[type="submit"] {
+  width: 50%;
+  background-color: #17abb8;
+  color: #fff;
+  box-shadow: 0 2px 0 rgba(0, 55, 135);
+  font-size: 1rem;
+  margin: 20px 0 5px 0;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 2s;
+}
+.connexion input[type="submit"]:hover {
+  transform: translateY(5px);
+}
